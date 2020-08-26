@@ -1,0 +1,26 @@
+{
+    "name": "vinicius/tdd-php",
+    "description": "TDD in php with PHPUnit",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius Pereira de Oliveira",
+            "email": "agavi2014@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
