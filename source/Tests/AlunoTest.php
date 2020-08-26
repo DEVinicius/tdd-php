@@ -3,15 +3,22 @@
 namespace Source\Tests;
 
 use Source\App\Aluno;
+use PHPUnit\Framework\TestCase;
 
-class AlunoTest extends Aluno
+class AlunoTest extends TestCase
 {
     //criar funções de Teste para cada função da classe Aluno
     public function testGetNome()
-    {}
+    {
+        $aluno = new Aluno("Beto",[12,323,43,5],"4AB");
+        $this->assertIsString($aluno->getNome());
+    }
 
     public function testSetNome()
-    {}
+    {
+        $aluno = new Aluno("Beto",[12,323,43,5],"4AB");
+        $this->
+    }
 
     public function testGetNotas()
     {}
